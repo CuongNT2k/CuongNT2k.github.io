@@ -62,14 +62,7 @@
     height: 15%;
     margin-top: 8px;
 }
-.Footer {
-    background-color: black;
-    height: 60px;
-    margin-top: 0px;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-}
+
 .teal {
     background-color: teal;
     height: 100%;
@@ -81,4 +74,12 @@
     width: 35%;
     margin-right: 8px;
     margin-left: 8px;
+}
+.Footer {
+    background-color: black;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
