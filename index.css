@@ -5,72 +5,95 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.menu ul {
-    width: 100%;
-    background-color: rgb(251, 251, 251);
-    height: 80px;
-    line-height: 80px;
-    padding-left: 30px;  
-    position: fixed;
-    list-style-type: none;
+.header{
+    background-image: url(https://pbs.twimg.com/media/DrdjKYJUUAASQhu.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover ;
 }
-.menu ul li {
-    color: #f1f1f1;
-	display: inline-table;
-	width: 150px;
-	height: 40px;
-	line-height: 40px;
-	position: relative;
+.menu {
+    background: #f1f1f1;
+    width: 100%;
+    padding-left: 40px;
+    height: 80px;
+    position: fixed;
+}
+.menu ul li{
+    display: inline-table;
+    position: relative;
+    padding: 10px;
+    line-height: 60px;
 }
 .menu ul li a{
-    text-decoration: none;
     display: block;
-    text-align: center;
+    color: black;
 }
 .menu ul li a:hover {
-    color: rgb(255, 0, 0);
+	background: #f1f1f1;
+	color: rgb(202, 45, 45);
 }
-.cover{
-    background-position: left;
+.content{
+    font-size: 20px;
+    color: rgb(72, 63, 63);
+    width: 70%;
+    margin: auto;
 }
-.content {
-    margin: 3%;
+.phan1{
+    margin-top: 30px ;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(182, 179, 172);
 }
-.center {
+.phan2{
+    margin-top: 100px ;
     display: flex;
-    margin: 3%;
+    text-align: center;
 }
-.top{
+img{
     width: 50%;
-    margin-left: 25%;
+    border-radius: 60%;
+    height: 400px;
+    width: 400px;
 }
-.right {
-    margin-left: 20%;
-    margin-top: 10%;
-    width: 30%;
-    font-size: larger;
+.phan2 p {
+    padding-left: 50px ;
+    padding-top: 100px;
 }
-.left {
-}
-.bottom {
+.phan3{
+    margin-top: 100px ;
     display: flex;
-    margin: 3%;
+    text-align: center;
 }
-.left1 {
-    margin-right: 20%;
-    margin-top: 10%;
-    width: 30%;
-    font-size: larger;
+.phan3 p {
+    padding-right: 50px ;
+    padding-top: 100px;
 }
 .footer {
-    text-align: center;
-    background-color: slategray;
+    margin-top: 30px ;
+    background-color: cornflowerblue;
     height: 100px;
-    line-height: 100px;
+    text-align: center;
+    position: relative;
 }
-.footer:hover{
-    background-color: khaki;
+.footer p {
+    position: relative;
+    top: 20px;
+    font-size: 25px ;
+}
+.footer p a{
+    text-decoration: none; color: brown;
+}
+.icon {
+    display: flex;
+    position: absolute;
+    top: 55px;
+    left: 47%;
+    font-size: 25px;
+}
+.icon a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: cornsilk;
+}
+.icon a:hover{
+    color: crimson;
 }
