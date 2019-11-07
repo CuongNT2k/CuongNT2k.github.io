@@ -30,7 +30,6 @@ body {
     line-height: 60px;
 }
 .menu ul li a{
-    display: block;
     color: black;
 }
 .menu ul li a:hover {
