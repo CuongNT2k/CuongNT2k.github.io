@@ -188,7 +188,7 @@ header{
 .intro button:hover{
     background-color: rgb(221, 219, 219);
 }
-hr{
+.col-4 hr{
     margin: 0% 8%;
     size: 3px;
     width: 80%!important;
@@ -291,7 +291,7 @@ hr{
     margin-bottom: 0px!important;
     margin-top: 0px!important;
 }
-.text-box ul li{
+.menu1 ul li{
     margin: 1%;
     background: #f5f6f7;
     border-radius: 18px;
@@ -300,6 +300,7 @@ hr{
     width: 30%;
 }
 .status{
+    margin-bottom: 3%;
     background-color: orange;
 }
 .name {
@@ -309,7 +310,22 @@ hr{
     font-size: 20px;
     margin-top: 1%;
 }
-.commnent{
+.tong{
     padding: 1%;
     font-size: 25px;
+}
+.like ul{
+    list-style-type: none;
+    display: flex;
+}
+.like ul li{
+    font-size: 25px;
+    text-align: center;
+    width: 33.33%;
+}
+.comment{
+    display: flex;
+}
+.comment span{
+    margin: 10px
 }
