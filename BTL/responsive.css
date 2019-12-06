@@ -6,7 +6,7 @@ p{
     margin: 0px!important   ;
 }
 .menu{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 95, 95);
     background-color: orange;
     font-weight: 200px;
     position: fixed!important;
@@ -94,7 +94,7 @@ header{
     list-style-type: none;
     display: flex;
     width: 100%;
-    background-color:orange;
+    background-color:#f1f1f1;
 }
 .thanhchon ul li{
     border-right: white solid 1px;
@@ -107,12 +107,12 @@ header{
     font-weight: bold;
 }
 .thanhchon ul li:hover{
-    background-color: rgb(247, 85, 36);
+    background-color:orange;
     cursor: pointer;
 }
 /* Hết cover + avatar */
 .intro{
-    background-color: orange;
+    background-color: #f1f1f1;
     font-family: inherit;
 }
 .phan1 {
@@ -166,7 +166,7 @@ header{
     font-size: 15px;
 }
 .Img{
-    background-color: orange!important;
+    background-color: #f1f1f1!important;
     margin-top: 16px;
 }
 .Anh{
@@ -185,13 +185,13 @@ header{
 }
 .friend{
     margin-top: 16px;
-    background-color: orange;
+    background-color: #f1f1f1;
 }
 .friend span a{
     margin: 4px 4px;
 }
 .Eventsinlife{
-    background-color: orange!important;
+    background-color: #f1f1f1!important;
     margin: 16px 0px; 
 }
 .cv{
@@ -206,12 +206,12 @@ header{
     border: rgb(0, 0, 0) solid 1px;
 }
 .language{
-    background-color: orange!important;
+    background-color: #f1f1f1!important;
     margin-bottom: 30px; 
 }
 .thanhchon2{
     margin-bottom: 10px;
-    background-color: orange;
+    background-color: #f1f1f1;
 }
 .thanhchon2 ul{
     display: flex;
@@ -258,7 +258,7 @@ header{
 }
 .status{
     margin-bottom: 3%;
-    background-color: orange;
+    background-color: #f1f1f1;
 }
 .name {
     display: flex;
