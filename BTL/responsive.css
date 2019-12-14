@@ -27,7 +27,7 @@ p{
     background-color: rgb(248, 177, 45);
 }
 .icon{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(247, 0, 0);
 }
 .icon:hover{
@@ -45,7 +45,7 @@ p{
 }
 .btn-secondary.focus, .btn-secondary:focus {
     box-shadow: none!important;
-}   
+}
 /* HẾT MENU */
 header{
 
@@ -294,7 +294,7 @@ label i:hover{
     cursor: pointer;
 }
 
-@media all and (min-width:576px) and (max-width: 990px)
+@media all and (min-width:416px) and (max-width: 990px)
 {
     .form{
         display: none;
@@ -309,11 +309,11 @@ label i:hover{
         display: none!important;
     }
     .icon{
-        font-size: 50px;
+        font-size: 40px;
     }
     .navbar-nav .nav-link {
-        padding-right: 3rem!important;
-        padding-left: 3rem!important;
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
     }
     .thanhchon{
         display: none;
@@ -325,13 +325,10 @@ label i:hover{
         margin-bottom: 40px;
     }
 }
-@media all and (max-width:576px)
+@media all and (max-width:415px)
 {
     .form{
         display: none;
-    }
-    .icon{
-        display: block;
     }
     .navbar-nav{
         flex-direction: row!important;
@@ -341,10 +338,11 @@ label i:hover{
     }
     .icon{
         font-size: 25px;
+        display: block;
     }
     .navbar-nav .nav-link {
-        padding-right: 1.8rem!important;
-        padding-left: 1.8rem!important;
+        padding-right: 1.5rem!important;
+        padding-left: 1.5rem!important;
     }
     /* Hết Menu */
     .avatar img{
@@ -360,7 +358,7 @@ label i:hover{
         z-index: 5;
         position: absolute;
         bottom: -60%;
-        left: 30%;
+        left: 35%;
     }
 
     .ten a{
