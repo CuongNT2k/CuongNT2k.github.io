@@ -278,9 +278,10 @@ header{
     display: flex;
 }
 .like ul li{
+    margin: 10px;
     font-size: 25px;
     text-align: center;
-    width: 33.33%;
+    width: 33%;
 }
 .like ul li:hover{
     color: blue;
