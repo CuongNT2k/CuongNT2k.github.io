@@ -112,6 +112,30 @@ header{
     background-color:orange;
     cursor: pointer;
 }
+
+.thanhchonMoblie ul{
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    list-style-type: none;
+    /* display: flex; */
+    width: 100%;
+    /* background-color:#f1f1f1; */
+    box-sizing: border-box;
+    font-size:90%;
+    height: auto;
+}
+.thanhchonMoblie ul li:hover{
+    cursor: pointer;
+}
+.add1{
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+    /* background-color:#f1f1f1; */
+}
 /* Hết cover + avatar */
 .intro{
     background-color: #f1f1f1;
@@ -246,6 +270,10 @@ header{
     width: 50%;
     outline: none;
 }
+.form:focus, .form:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
 .text-box hr{
     margin-bottom: 0px!important;
     margin-top: 0px!important;
@@ -278,15 +306,9 @@ header{
     display: flex;
 }
 .like ul li{
-    margin: 10px;
     font-size: 25px;
     text-align: center;
-    width: 33%;
-}
-.like ul li:hover{
-    color: blue;
-    cursor: pointer;
-    background-color: #afafaf;
+    width: 33.33%;
 }
 .comment{
     display: flex;
@@ -302,8 +324,12 @@ label i:hover{
     color: rgb(165, 165, 165);
     cursor: pointer;
 }
-
-@media all and (min-width:416px) and (max-width: 990px)
+@media all and (min-width:991px){
+    .thanhchonMoblie{
+        display: none;
+    }
+}
+@media all and (min-width:540px) and (max-width: 990px)
 {
     .form{
         display: none;
@@ -330,14 +356,29 @@ label i:hover{
     .thanhchon{
         display: none;
     }
+    /* .thanhchonMoblie{
+        display: none;
+    } */
     .language{
         display: none;
     }
     .gioithieu {
         margin-bottom: 40px;
     }
+   .add1{
+       font-size:100%;
+   }
+   .thanhchonMoblie{
+       padding-top: 0%;
+   }
+   .intro{
+    background: white;
 }
-@media all and (max-width:415px)
+    .ten{
+        left:50%;
+    }
+}
+@media all and (max-width:540px)
 {
     .form{
         display: none;
@@ -363,26 +404,33 @@ label i:hover{
     .avatar img{
         border: white solid 5px;
         position: absolute;
-        border-radius: 0%!important;
+        border-radius: 50% 50%!important;
         width: 30%!important;
         left: 35%;
         margin-top: 0;
-        top: -105%;
+        top: -80%;
     }
     .ten {
         z-index: 5;
         position: absolute;
-        bottom: -60%;
+        bottom: -40%;
         left: 35%;
     }
 
-    .ten a{
+    .ten a {
         color: black;
         font-size: 15px;
-        text-align: center;   
+        text-align: center;
     } 
+   
     .thanhchon{
         display: none;
+    }
+    .intro{
+        background: white;
+    }
+    .thanhchonMoblie{
+        display: block;
     }
     .language{
         display: none;
@@ -399,5 +447,6 @@ label i:hover{
     }
     .gioithieu {
         margin-bottom: 80px;
+
     }
 }
